@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+<WordScatterChart />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WordScatterChart from './components/WordScatterChart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WordScatterChart
   }
 }
 </script>
